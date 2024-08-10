@@ -5,5 +5,3 @@ draft = false
 +++
 
 # This is my first post
-
-what a test

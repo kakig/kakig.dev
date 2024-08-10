@@ -8,17 +8,9 @@ draft = false
 Is the project feasible? This is one of the first questions that should be
 asked when thinking about a new data science project. Fortunately, it is
 possible to have a satisfactory answer and save a ton of money and effort
-before committing to an impossible project.
+before committing to a difficult or even impossible project.
 
-The first step 
-
-Como saber se um projeto de ciência de dados é viável?
-
-Artigos! Ombro de gigantes. Ciência.
-
-POC
-
-MVP
-
-CRISP-DM / metodologia, como projetos em ciência de dados funcionam.
-
+The first step is to gather information about the problem. Searching the
+academic literature for articles that solved the same or similar problems helps
+to give an idea of the data required and how well your team will be able to
+solve the problem.
