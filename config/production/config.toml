@@ -1,0 +1,3 @@
+baseurl = "https://kakig.dev"
+enableRobotsTXT = true
+minify = true

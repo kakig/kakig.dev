@@ -1,0 +1,4 @@
+baseURL: 'https//kakig.dev'
+languageCode: 'en-us'
+title: 'kakig.dev'
+theme: 'kakig'

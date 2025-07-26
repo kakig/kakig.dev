@@ -1,0 +1,21 @@
+{{ define "main" }}
+<header class="banner">
+  <div class="content">
+    <a href="{{ .Site.BaseURL }}" class="logo">kakig.dev</a>
+    <a href="/blog/" class="header-link">Blog</a>
+    <a href="" class="header-link">Resume</a>
+    <a href="" class="header-link">Art</a>
+  </div>
+</header>
+<article>
+  <h1>{{ .Title }}</h1>
+  <small class="date">{{ .Date | time.Format ":date_medium" }}</small>
+  <div>{{ .Content }}</div>
+</article>
+<footer>
+  <div class="content">
+    <a href="{{ .Site.BaseURL }}" class="logo">kakig.dev</a>
+    <small>Handcrafted with <3 using <a class="hugo-link" href="https://gohugo.io/">Hugo</a></small>
+  </div>
+</footer>
+{{ end }}
