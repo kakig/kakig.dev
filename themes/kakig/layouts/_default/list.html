@@ -1,18 +1,21 @@
 {{ define "main" }}
-<section class="blog-main">
-  <h1>{{ .Title }}</h1>
-  <ul class="post-listing">
-    {{ range .Pages }}
-      <li class="post-item">
-        <h3 class="post-link-title">
-          <a class="post-link" href="{{ .RelPermalink }}">
-            {{ .Title }}
-          </a>
-        </h3>
-        <small class="date">{{ .Date | time.Format ":date_medium" }}</small>
-        <span class="summary">{{ .Summary }}</span>
-      </li>
-    {{ end }}
-  </ul>
-</section>
+<main>
+  <section class="blog-main">
+    <h1>{{ .Title }}</h1>
+    <ul class="post-listing">
+      {{ range .Pages }}
+        <li class="post-item">
+          <h3 class="post-link-title">
+            <a class="post-link" href="{{ .RelPermalink }}">
+              {{ .Title }}
+            </a>
+          </h3>
+          <small class="date">{{ .Date | time.Format ":date_medium" }}</small>
+          <span class="summary">{{ .Summary }}</span>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+</main>
+{{ partial "spacer.html" . }}
 {{ end }}

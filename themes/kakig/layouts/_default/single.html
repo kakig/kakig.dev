@@ -1,7 +1,10 @@
 {{ define "main" }}
-<article>
-  <h1 class="title">{{ .Title }}</h1>
-  <small class="written-on"><span class="date">{{ .Date | time.Format ":date_medium" }}</span></small>
-  {{ .Content }}
-</article>
+<main>
+  <article>
+    <h1 class="title">{{ .Title }}</h1>
+    <small class="written-on"><span class="date">{{ .Date | time.Format ":date_medium" }}</span></small>
+    {{ .Content }}
+  </article>
+</main>
+{{ partial "spacer.html" . }}
 {{ end }}

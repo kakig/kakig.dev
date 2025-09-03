@@ -1,3 +1,0 @@
-baseurl = "http://localhost:1313"
-buildDrafts = true
-minify = false

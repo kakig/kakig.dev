@@ -3,6 +3,7 @@ title: 'Is your data science project feasible?'
 date: 2024-07-30T10:57:39Z
 categories: ["Data Science"]
 draft: false
+summary: Ask this when starting a new project
 ---
 
 Is the project feasible? This is one of the first questions that should be

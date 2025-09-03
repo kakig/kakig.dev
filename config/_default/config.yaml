@@ -1,0 +1,14 @@
+languageCode: "en-us"
+pagination:
+  PagerSize: 5
+title: "Gabriel Kakizaki"
+
+enableGitInfo: false
+pluralizeListTitles: false
+
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^CI$
+      - ^DEBUG$
