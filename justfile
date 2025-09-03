@@ -6,4 +6,4 @@ build:
 
 dev:
   rm -rf public
-  hugo server --buildDrafts --noHTTPCache --disableFastRender --bind 0.0.0.0
+  hugo server --buildDrafts --noHTTPCache --disableFastRender --environment='development' --bind 0.0.0.0

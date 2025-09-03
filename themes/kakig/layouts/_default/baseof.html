@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <main>
-      {{ block "main" . }}{{ end }}
-    </main>
+    <div style="display: flex; justify-content: space-between; flex-direction: column; min-height: 100vh;">
+      {{ partial "header.html" }}
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ partial "footer.html" }}
+    </div>
   </body>
 </html>
